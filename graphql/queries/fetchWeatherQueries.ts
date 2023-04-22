@@ -1,6 +1,6 @@
 import { gql } from "@apollo/client";
 
-const fetchWeatherQueries = gql`
+const fetchWeatherQuery = gql`
   query MyQuery(
     $current_weather: String
     $daily: String = "apparent_temperature_max, apparent_temperature_min, precipitation_sum, sunrise, sunset, temperature_2m_max, temperature_2m_min, time, uv_index_max"
@@ -85,4 +85,4 @@ const fetchWeatherQueries = gql`
   }
 `;
 
-export default fetchWeatherQueries;
+export default fetchWeatherQuery;

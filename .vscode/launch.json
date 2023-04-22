@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "https://templeterrace.stepzen.net/api/eating-emu/__graphql",
+            "request": "launch",
+            "url": "https://templeterrace.stepzen.net/api/eating-emu/__graphql"
+        }
+    ]
+}
